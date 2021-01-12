@@ -1,0 +1,27 @@
+{
+  "packageDirectories" : [
+    {"path": "sfdx-source/force-app", "default": true}
+  ],
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0",
+  "plugins": {
+    "sfdxFalcon": {
+      "developerAlias"  : "litify",
+      "developerName"   : "Litify",
+      "projectAlias"    : "litify-demo",
+      "projectName"     : "Litify Demo",
+      "projectFamily"   : "ADK",
+      "projectType"     : "single-demo",
+      "defaultRecipe"   : "demo-recipe.json",
+      "gitRemoteUri"    : "https://github.com/litify/salesforce-litify-adk.git",
+      "gitHubUrl"       : "https://github.com/my-org/my-repo",
+      "projectVersion"  : "0.0.1",
+      "schemaVersion"   : "0.0.1",
+      "pluginVersion"   : "0.0.93",
+      "appxPackage"     : {},
+      "appxDemo": {
+        "demoRecipes"   : ["demo-recipe.json"]
+      }
+    }			
+  }
+}
